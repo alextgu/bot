@@ -1,0 +1,21 @@
+version: "2.0"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
+intents:
+  - greet
+  - goodbye
+  - alex
+  - question
+responses:
+  utter_greet:
+    - text: hi, I am bot
+  utter_goodbye:
+    - text: bye, I leave
+  utter_default:
+    - text: I Have no idea what you just said. Please rephrase.
+  utter_alex:
+    - text: I can answer questions about my creator Alex. Ask away.
+actions:
+  - action_answer_question

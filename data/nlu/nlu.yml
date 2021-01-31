@@ -1,0 +1,58 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - heyyyy
+    - wassup
+- intent: goodbye
+  examples: |
+    - bye
+    - see you later
+    - good bye
+    - have a good day
+    - i will talk to you later
+    - got to go
+    - see you soon
+    - talk to you soon
+    - i sleep
+- intent: alex
+  examples: |
+    - question
+    - i have a question
+    - tell me more about alex
+    - i have a question about alex
+- intent: question
+  examples: |
+    - what
+    - why 
+    - who
+    - where
+    - how
+    - what is
+    - how to
+    - why can
+    - what does
+    - where is
+    - where
+    - why is
+    - why does
+    - what is alex's favorite color?
+    - how tall is alex
+    - how old is alex?
+    - what is alex
+    - who is alex's friend
+    - can edward beat a no hand tennis player?
+    - can ducks code?
+    - why can simon tell the future?
+    - rock, paper or scissors?
+    - how big simon pp
+    - how big is alex pp
+    - how many people can edward beat in tennis
+    - what is edwards ideal basketball position
